@@ -1,4 +1,3 @@
-
 # SRE Assignment – Monitoring with FastAPI, Prometheus, and Grafana
 
 ## Project Objective
@@ -41,12 +40,12 @@ docker-compose up --build
 
 ## Service Endpoints
 
-| Service     | URL                                         | Description                    |
-|-------------|---------------------------------------------|--------------------------------|
-| FastAPI     | http://localhost:8000                       | FastAPI root endpoint          |
-| Metrics     | http://localhost:8000/metrics               | Prometheus metrics endpoint    |
-| Prometheus  | http://localhost:9090                       | Prometheus web UI              |
-| Grafana     | http://localhost:3000                       | Grafana dashboard interface    |
+| Service     | URL                           | Description                   |
+|-------------|-------------------------------|-------------------------------|
+| FastAPI     | http://localhost:8000         | FastAPI root endpoint         |
+| Metrics     | http://localhost:8000/metrics | Prometheus metrics endpoint   |
+| Prometheus  | http://localhost:9090         | Prometheus web UI             |
+| Grafana     | http://localhost:3000         | Grafana dashboard interface   |
 
 Grafana Default Login:
 - Username: `admin`
