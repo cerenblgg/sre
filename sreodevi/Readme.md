@@ -6,7 +6,7 @@ The goal of this assignment is to build a practical observability stack for a Fa
 It demonstrates the implementation of real-time metrics collection, visualization, and alerting using Prometheus and Grafana in a containerized environment.
 
 * Containerizing the FastAPI application using Docker
-* Exposing custom application metrics via Prometheus
+* nstrumented FastAPI endpoints using Prometheus client library to expose metrics such as request count, latency, and 5xx error rates
 * Visualizing performance indicators on Grafana dashboards
 * Creating alert rules to detect anomalies and ensure service reliability
 
