@@ -26,7 +26,7 @@ This project aims to simulate a real-world monitoring setup for a FastAPI servic
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-project-url>
+git clone https://github.com/cerenblgg/sre.git
 cd sreodevi
 ```
 
